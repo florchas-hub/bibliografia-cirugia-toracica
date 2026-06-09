@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliografía — Ventilación en Cirugía Torácica</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #FAFAF8;
+      color: #2C2C2A;
+      line-height: 1.7;
+    }
+    header {
+      background: #0C447C;
+      color: #fff;
+      padding: 3rem 2rem 2.5rem;
+      border-bottom: 4px solid #185FA5;
+    }
+    header .inner { max-width: 900px; margin: 0 auto; }
+    header .eyebrow {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: #B5D4F4; margin-bottom: 0.75rem;
+    }
+    header h1 { font-size: 2rem; font-weight: normal; line-height: 1.3; margin-bottom: 0.75rem; }
+    header p.subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 0.95rem; color: #B5D4F4; }
+
+    main { max-width: 900px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+
+    .intro-box {
+      background: #E6F1FB; border-left: 4px solid #185FA5;
+      border-radius: 0 6px 6px 0; padding: 1rem 1.25rem;
+      margin-bottom: 2.5rem;
+      font-family: Arial, Helvetica, sans-serif; font-size: 0.9rem; color: #0C447C;
+    }
+
+    .section-title {
+      font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: #888780;
+      margin-bottom: 1rem; padding-bottom: 0.5rem;
+      border-bottom: 0.5px solid #D3D1C7;
+    }
+
+    .articles-list { display: flex; flex-direction: column; gap: 0; margin-bottom: 2.5rem; }
+
+    .article-card {
+      background: #fff; border: 0.5px solid #D3D1C7; border-top: none;
+      padding: 1.25rem 1.5rem;
+      display: grid; grid-template-columns: 1fr auto; gap: 0.75rem; align-items: start;
+    }
+    .article-card:first-child { border-top: 0.5px solid #D3D1C7; border-radius: 8px 8px 0 0; }
+    .article-card:last-child { border-radius: 0 0 8px 8px; }
+    .article-card:hover { background: #F1EFE8; }
+
+    .article-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 0.3rem; flex-wrap: wrap; }
+    .article-num { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 700; color: #888780; min-width: 20px; }
+    .article-year {
+      font-family: Arial, Helvetica, sans-serif; font-size: 11px;
+      background: #E6F1FB; color: #0C447C; padding: 2px 8px; border-radius: 4px; font-weight: 700;
+    }
+    .article-tag {
+      font-family: Arial, Helvetica, sans-serif; font-size: 11px;
+      background: #E1F5EE; color: #085041; padding: 2px 8px; border-radius: 4px; font-weight: 600;
+    }
+    .article-title { font-size: 1rem; font-style: italic; color: #2C2C2A; margin-bottom: 0.25rem; line-height: 1.4; }
+    .article-authors { font-family: Arial, Helvetica, sans-serif; font-size: 0.8rem; color: #5F5E5A; margin-bottom: 0.15rem; }
+    .article-journal { font-family: Arial, Helvetica, sans-serif; font-size: 0.8rem; color: #888780; }
+
+    .download-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 7px 14px; background: #0C447C; color: #fff;
+      border-radius: 6px; text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif; font-size: 0.78rem; font-weight: 700;
+      white-space: nowrap; transition: background 0.15s;
+    }
+    .download-btn:hover { background: #185FA5; }
+    .download-btn svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+    footer {
+      background: #444441; color: #D3D1C7; text-align: center;
+      padding: 1.5rem 2rem;
+      font-family: Arial, Helvetica, sans-serif; font-size: 0.82rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.4rem; }
+      .article-card { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="eyebrow">Material de referencia · FAAAAR · 2026</p>
+    <h1>Ventilación en Cirugía Torácica</h1>
+    <p class="subtitle">Bibliografía recomendada · Dra. Florencia E. Bolla</p>
+  </div>
+</header>
+
+<main>
+
+  <div class="intro-box">
+    Este repositorio reúne los artículos mencionados en la presentación. Hacé clic en "Descargar PDF" para acceder a cada trabajo.
+  </div>
+
+  <!-- SECCIÓN 1 -->
+  <p class="section-title">Fisiopatología · Ventilación monopulmonar</p>
+  <div class="articles-list">
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">01</span><span class="article-year">2015</span><span class="article-tag">Revisión</span></div>
+        <p class="article-title">Lung Injury After One-Lung Ventilation: A Review of the Pathophysiologic Mechanisms Affecting the Ventilated and the Collapsed Lung</p>
+        <p class="article-authors">Lohser J, Slinger P.</p>
+        <p class="article-journal">Anesthesia &amp; Analgesia. 2015;121(2):302–318.</p>
+      </div>
+      <a href="pdfs/10-Lohser-Lung-Injury-OLV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">02</span><span class="article-year">2017</span><span class="article-tag">Revisión</span></div>
+        <p class="article-title">Hypoxic Pulmonary Vasoconstriction</p>
+        <p class="article-authors">Tarry D, Powell M.</p>
+        <p class="article-journal">BJA Education. 2017;17(6):208–213.</p>
+      </div>
+      <a href="pdfs/08-Tarry-HPV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">03</span><span class="article-year">2015</span><span class="article-tag">Estudio observacional</span></div>
+        <p class="article-title">Noninvasive Measurement of Carbon Dioxide during One-Lung Ventilation with Low Tidal Volume: End-Tidal versus Transcutaneous Techniques</p>
+        <p class="article-authors">Zhang H, Wang D-X.</p>
+        <p class="article-journal">PLOS ONE. 2015;10(10):e0138912.</p>
+      </div>
+      <a href="pdfs/11-Zhang-CO2-Noninvasive.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">04</span><span class="article-year">2023</span><span class="article-tag">Ensayo clínico</span></div>
+        <p class="article-title">Effect of Permissive Hypercarbia on Lung Oxygenation during One-Lung Ventilation and Postoperative Pulmonary Complications in Patients Undergoing Thoracic Surgery</p>
+        <p class="article-authors">Joe Y-E, Lee CY, Kim N, Lee K, Kang SJ, Oh YJ.</p>
+        <p class="article-journal">European Journal of Anaesthesiology. 2023;40:691–698.</p>
+      </div>
+      <a href="pdfs/03-Permissive-Hypercarbia-OLV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+  </div>
+
+  <!-- SECCIÓN 2 -->
+  <p class="section-title">Estrategias ventilatorias · PEEP y reclutamiento</p>
+  <div class="articles-list">
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">05</span><span class="article-year">2015</span><span class="article-tag">Metaanálisis</span></div>
+        <p class="article-title">Protective versus Conventional Ventilation for Surgery: A Systematic Review and Individual Patient Data Meta-analysis</p>
+        <p class="article-authors">Serpa Neto A, Hemmes SNT, Barbas CSV et al.; PROVE Network Investigators.</p>
+        <p class="article-journal">Anesthesiology. 2015;123(1):66–78.</p>
+      </div>
+      <a href="pdfs/02-Neto-Protective-vs-Conventional.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">06</span><span class="article-year">2016</span><span class="article-tag">Estudio retrospectivo</span></div>
+        <p class="article-title">Management of One-Lung Ventilation: Impact of Tidal Volume on Complications after Thoracic Surgery</p>
+        <p class="article-authors">Blank RS, Colquhoun DA, Durieux ME et al.</p>
+        <p class="article-journal">Anesthesiology. 2016;124(6):1286–1295.</p>
+      </div>
+      <a href="pdfs/12-Blank-Management-OLV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">07</span><span class="article-year">2014</span><span class="article-tag">Revisión</span></div>
+        <p class="article-title">Alveolar Recruitment Maneuvers for One-Lung Ventilation During Thoracic Anesthesia</p>
+        <p class="article-authors">Tusman G, Bohm SH, Suarez-Sipmann F.</p>
+        <p class="article-journal">Current Anesthesiology Reports. 2014;4:160–169.</p>
+      </div>
+      <a href="pdfs/13-Tusman-Alveolar-Recruitment.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">08</span><span class="article-year">2014</span><span class="article-tag">Ensayo clínico</span></div>
+        <p class="article-title">Setting Individualized Positive End-Expiratory Pressure Level with a PEEP Decrement Trial After a Recruitment Maneuver Improves Oxygenation and Lung Mechanics During One-Lung Ventilation</p>
+        <p class="article-authors">Ferrando C, Mugarra A, Gutierrez A et al.</p>
+        <p class="article-journal">Anesthesia &amp; Analgesia. 2014;119(3):657–665.</p>
+      </div>
+      <a href="pdfs/09-Ferrando-Individualized-PEEP.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">09</span><span class="article-year">2018</span><span class="article-tag">Estudio multicéntrico</span></div>
+        <p class="article-title">The Effects of an Open-Lung Approach During One-Lung Ventilation on Postoperative Pulmonary Complications and Driving Pressure: A Descriptive Multicenter National Study</p>
+        <p class="article-authors">Belda J, Ferrando C, Garutti I et al.</p>
+        <p class="article-journal">Journal of Cardiothoracic and Vascular Anesthesia. 2019;33(2):388–396.</p>
+      </div>
+      <a href="pdfs/07-Belda-Open-Lung-OLV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+  </div>
+
+  <!-- SECCIÓN 3 -->
+  <p class="section-title">Estrategias individualizadas · Evidencia reciente</p>
+  <div class="articles-list">
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">10</span><span class="article-year">2023</span><span class="article-tag">Ensayo clínico aleatorizado</span></div>
+        <p class="article-title">Individualised, Perioperative Open-Lung Ventilation Strategy during One-Lung Ventilation (iPROVE-OLV): a Multicentre, Randomised, Controlled Clinical Trial</p>
+        <p class="article-authors">Ferrando C, Carramiñana A, Piñeiro P et al.; iPROVE-OLV Research Network Group.</p>
+        <p class="article-journal">The Lancet Respiratory Medicine. 2023;11(9):771–783.</p>
+      </div>
+      <a href="pdfs/01-iPROVE-OLV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">11</span><span class="article-year">2025</span><span class="article-tag">Editorial</span></div>
+        <p class="article-title">Improving Lung Protective Mechanical Ventilation: the Individualised Intraoperative Open-Lung Approach</p>
+        <p class="article-authors">Ferrando C, Vallverdú J, Zattera L, Tusman G, Suárez-Sipmann F.</p>
+        <p class="article-journal">British Journal of Anaesthesia. 2025;134(2):281–287.</p>
+      </div>
+      <a href="pdfs/04-Ferrando-Editorial-2025.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">12</span><span class="article-year">2024</span><span class="article-tag">Revisión</span></div>
+        <p class="article-title">Intraoperative Mechanical Ventilation during Thoracic Surgery: Contemporary Controversies and Evolving Strategies</p>
+        <p class="article-authors">Wittenstein J, Piccioni F, Vanpeteghem CM, Gama de Abreu M.</p>
+        <p class="article-journal">Current Opinion in Anaesthesiology. 2024.</p>
+      </div>
+      <a href="pdfs/06-Wittenstein-Controversies-MV.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+    <div class="article-card">
+      <div>
+        <div class="article-meta"><span class="article-num">13</span><span class="article-year">2025</span><span class="article-tag">Revisión</span></div>
+        <p class="article-title">Pharmacology of Thoracic Anesthesia</p>
+        <p class="article-authors">Végh T, Szamos K, Balla B.</p>
+        <p class="article-journal">Current Opinion in Anaesthesiology. 2025.</p>
+      </div>
+      <a href="pdfs/05-Pharmacology-Thoracic-Anesthesia.pdf" class="download-btn" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 20h14"/></svg>
+        Descargar PDF
+      </a>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  Material preparado para uso académico · Dra. Florencia E. Bolla · FAAAAR · 2026
+</footer>
+
+</body>
+</html>
